@@ -9,5 +9,9 @@ def multilang_greeting(lang="en"):
     else:
         return r"¯\_(ツ)_/¯"
 
+def age_asking():
+    return int(input("What is your age?"))
+
+
 imya = input("What is your name?\n")
 print(greeting(imya))
